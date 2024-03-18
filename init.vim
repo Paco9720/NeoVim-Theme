@@ -9,7 +9,7 @@ set encoding=utf-8
 filetype on
 
 
-nnoremap <C-s> :w<CR>
+nnoremap <C-w> :w<cr>
 nnoremap <C-q> :q<CR>
 nnoremap <C-t> :terminal<CR>
 nnoremap <C-e> <cmd>Telescope find_files<cr>
@@ -26,5 +26,3 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.6' }
 call plug#end()
 
 let g:airline#extensions#tabline#enabled = 1
-
-colorscheme minimalist
