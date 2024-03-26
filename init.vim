@@ -7,12 +7,6 @@ set nohlsearch
 set nolist
 set encoding=utf-8
 
-
 let mapleader = " "
-
 nmap <leader>w :w<cr>
 nmap <leader>q :q<cr>
-nmap <leader>e :NERDTreeToggle<cr>
-
-colorscheme black
-
