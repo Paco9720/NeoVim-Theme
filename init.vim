@@ -7,8 +7,7 @@ set nohlsearch
 set nolist
 set encoding=utf-8
 
-let mapleader =  "\<Space>"
+nmap <c-w> :w<cr>
+nmap <c-q> :q<cr>
+nmap <c-e> :Explore<cr>
 
-nmap <leader>w :w<cr>
-nmap <leader>q :q<cr>
-nmap <leader>e :Lexplore<cr>

@@ -9,13 +9,11 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   
-  use {'preservim/nerdtree'}
-  use {
-    "windwp/nvim-autopairs",
-    event = "InsertEnter",
-    config = function()
-        require("nvim-autopairs").setup {}
-    end
-}
   use { 'neoclide/coc.nvim', branch = 'release' }
+  use 'windwp/nvim-autopairs'
+  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
 end)
+
+
+
+
