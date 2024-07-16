@@ -1,13 +1,6 @@
 set number
-syntax on
-set clipboard=unnamed
-set nu rnu
-set wildmenu
-set nohlsearch
-set nolist
-set encoding=utf-8
 
-nmap <c-w> :w<cr>
-nmap <c-q> :q<cr>
-nmap <c-e> :Explore<cr>
 
+nmap<C-s> :w<cr>
+nmap<C-q> :q<cr>
+nmap<C-e> :Explore<cr>
